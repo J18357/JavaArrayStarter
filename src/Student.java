@@ -11,6 +11,29 @@ public class Student
         this.favoriteColor = fc;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBirthMonth() {
+        return birthMonth;
+    }
+
+    public void setBirthMonth(String birthMonth) {
+        this.birthMonth = birthMonth;
+    }
+
+    public String getFavoriteColor() {
+        return favoriteColor;
+    }
+
+    public void setFavoriteColor(String favoriteColor) {
+        this.favoriteColor = favoriteColor;
+    }
 
     @Override
     public String toString()
